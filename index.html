@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libro de Recetas</title>
+    <style>
+        /* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf0;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    background: #ffcc66;
+    color: #333;
+    padding: 1em 0;
+}
+
+/* Navegación */
+nav {
+    background: #ff9966;
+    padding: 1em;
+}
+
+nav h2 {
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones */
+section {
+    margin: 2em 1em;
+    padding: 1em;
+    background: #ffe4b5;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #cc6600;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 0.5em;
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    background: #ff9966;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+    </style>
+    
+    
+</head>
+<body>
+    <header>
+        <h1>Mi Libro de Recetas Favoritas</h1>
+        <p>¡Descubre mis platos favoritos y anímate a prepararlos!</p>
+    </header>
+    <nav>
+        <h2>Tabla de Contenidos</h2>
+        <ul>
+            <li><a href="#pancakes">Pancakes Esponjosos</a></li>
+            <li><a href="#pasta">Pasta Alfredo</a></li>
+            <li><a href="#brownies">Brownies de Chocolate</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- Receta 1 -->
+        <section id="pancakes">
+            <h2>Pancakes Esponjosos</h2>
+            <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/cake.png" alt="Pancakes esponjosos">
+            <h3>Ingredientes</h3>
+            <table>
+                <tr>
+                    <th>Ingrediente</th>
+                    <th>Cantidad</th>
+                </tr>
+                <tr>
+                    <td>Harina</td>
+                    <td>1 taza</td>
+                </tr>
+                <tr>
+                    <td>Leche</td>
+                    <td>1 taza</td>
+                </tr>
+                <tr>
+                    <td>Huevo</td>
+                    <td>1 unidad</td>
+                </tr>
+                <tr>
+                    <td>Polvo de hornear</td>
+                    <td>1 cucharadita</td>
+                </tr>
+            </table>
+            <h3>Pasos</h3>
+            <ol>
+                <li>Mezcla los ingredientes secos en un recipiente.</li>
+                <li>Añade los ingredientes líquidos y bate hasta que no queden grumos.</li>
+                <li>Cocina la mezcla en un sartén caliente, girando cuando aparezcan burbujas.</li>
+                <li>Sírvelos con miel, frutas o lo que más te guste.</li>
+            </ol>
+        </section>
+        <!-- Receta 2 -->
+        <section id="pasta">
+            <h2>Pasta Alfredo</h2>
+            <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/ice-cream.png" alt="Pasta Alfredo">
+            <h3>Ingredientes</h3>
+            <table>
+                <tr>
+                    <th>Ingrediente</th>
+                    <th>Cantidad</th>
+                </tr>
+                <tr>
+                    <td>Pasta (fettuccine)</td>
+                    <td>250 g</td>
+                </tr>
+                <tr>
+                    <td>Crema de leche</td>
+                    <td>1 taza</td>
+                </tr>
+                <tr>
+                    <td>Queso parmesano</td>
+                    <td>1/2 taza</td>
+                </tr>
+                <tr>
+                    <td>Ajo</td>
+                    <td>1 diente</td>
+                </tr>
+            </table>
+            <h3>Pasos</h3>
+            <ol>
+                <li>Cocina la pasta según las instrucciones del paquete.</li>
+                <li>En una sartén, sofríe el ajo picado en mantequilla.</li>
+                <li>Añade la crema de leche y el queso parmesano, mezclando bien.</li>
+                <li>Combina la pasta con la salsa y sirve caliente.</li>
+            </ol>
+        </section>
+        <!-- Receta 3 -->
+        <section id="brownies">
+            <h2>Brownies de Chocolate</h2>
+            <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/shish-kebab.png" alt="Brownies de chocolate">
+            <h3>Ingredientes</h3>
+            <table>
+                <tr>
+                    <th>Ingrediente</th>
+                    <th>Cantidad</th>
+                </tr>
+                <tr>
+                    <td>Chocolate oscuro</td>
+                    <td>200 g</td>
+                </tr>
+                <tr>
+                    <td>Mantequilla</td>
+                    <td>100 g</td>
+                </tr>
+                <tr>
+                    <td>Azúcar</td>
+                    <td>1 taza</td>
+                </tr>
+                <tr>
+                    <td>Huevos</td>
+                    <td>2 unidades</td>
+                </tr>
+                <tr>
+                    <td>Harina</td>
+                    <td>1/2 taza</td>
+                </tr>
+            </table>
+            <h3>Pasos</h3>
+            <ol>
+                <li>Derrite el chocolate y la mantequilla a baño maría.</li>
+                <li>Agrega el azúcar y los huevos, mezclando bien.</li>
+                <li>Incorpora la harina y vierte la mezcla en un molde.</li>
+                <li>Hornea a 180°C por 25-30 minutos.</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <p>Libro de recetas creado por [Tu Nombre]. Algunas imágenes cortesía de Wikipedia.</p>
+    </footer>
+</body>
+</html>
